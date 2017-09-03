@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Christy La Guardia",
+        "email": "christy@teamcaret.com",
+        "password": "christy",
+        "role": "admin",
+        "status": "active"
+    },{
+        "name": "Mark Petrie",
+        "email": "mark@teamcaret.com",
+        "password": "mark",
+        "role": "admin",
+        "status": "active"
+    },{
+        "name": "Stephanie Fitzgerald",
+        "email": "stephanie@teamcaret.com",
+        "password": "stephanie",
+        "role": "admin",
+        "status": "active"
+    }
+]

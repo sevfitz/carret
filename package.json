@@ -1,7 +1,10 @@
 {
   "name": "carret",
   "version": "1.0.0",
-  "description": "Alchemy Code Labs - 401 Team Project",
+  "engines": {
+    "node": ">8.0.0"
+  },
+  "description": "Alchemy Code Lab - 401 Team Project",
   "main": "server.js",
   "directories": {
     "lib": "lib",
@@ -12,31 +15,33 @@
     "test:unit": "mocha tests/unit",
     "test:e2e": "mocha tests/e2e",
     "dev": "nodemon --exec 'npm run test -- -w'",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sevfitz/carret.git"
+    "url": "git+https://github.com/ACL-CMS-P1/carret"
   },
   "author": "Christy LaGuardia, Mark Petrie, Stephanie Fitzgerald",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sevfitz/carret/issues"
+    "url": "https://github.com/ACL-CMS-P1/carret/issues"
   },
-  "homepage": "https://github.com/sevfitz/carret#readme",
+  "homepage": "https://github.com/ACL-CMS-P1/carret#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
     "express": "^4.15.4",
     "jsonwebtoken-promisified": "^1.0.3",
-    "mongoose": "^4.11.6"
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2",
+    "superagent": "^3.5.2"
   },
   "devDependencies": {
     "chai": "^4.1.1",
     "chai-http": "^3.0.0",
     "eslint": "^4.4.1",
     "mocha": "^3.5.0",
-    "morgan": "^1.8.2",
     "nodemon": "^1.11.0"
   }
 }
