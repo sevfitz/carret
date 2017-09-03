@@ -10,7 +10,7 @@ Alchemy Code Lab - 401 Group Project
 
 ## Synopsis
 
-Our project is an authentication security solution that is intended for publication as an npm package. Developers can install our security package for use in their new and existing apps that requires security. It uses a MongoDB to store user events such as signup, signin/login, failed login, etc., and other relevant user data.
+Our project is an authentication security solution that is intended for publication as an npm package. Developers can install our security package for use in their new and existing apps that require security. It uses a MongoDB to store user events such as signup, signin/login, failed login, etc., and other relevant user data.
 
 For coding standards and user stories, see our [DEVELOPER.md](DEVELOPER.md).
 For a more detailed description and demo code for our endpoints, see the [presentation.md](presentation.md). We recommend using postman with these examples to quickly see the responses.
